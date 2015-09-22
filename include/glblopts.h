@@ -77,7 +77,7 @@ typedef double pfloat;              /* for numerical values  */
 #define PRINTTEXT(...)
 #endif
 
-#include "SuiteSparse_config.h"
+#include "../external/SuiteSparse_config/SuiteSparse_config.h"
 
 /* use this if pfloat is float: */
 /* #define NAN ((float)0x7fc00000) */
